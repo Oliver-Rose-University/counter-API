@@ -1,0 +1,32 @@
+*{
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcolumn{
+    flex-direction: column;
+}
+
+.button{
+    background-color: whitesmoke;
+    padding: 5px;
+    border: solid black;
+    border-width: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px gray;
+}
+
+#main-div{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    overflow: hidden;
+}
